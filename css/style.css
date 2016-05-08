@@ -51,14 +51,14 @@ body {
     margin-left: 0;
 }
 .nav_list>li>a:hover {
-    text-shadow: 0.5px 0.866px 0px rgb( 15, 21, 24 );
+    text-shadow: 1px 1px 0px rgb( 15, 21, 24 );
 }
 .menu_link {
     color: #fff;
     font: 400 24px/24px 'LeagueGothic', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    text-shadow: 1px 1.732px 2px rgb( 0, 0, 0 );
+    text-shadow: 1px 2px 2px rgb( 0, 0, 0 );
 }
 .nav_list li:hover {
     border-bottom: 2px solid #edbfff;
@@ -85,25 +85,25 @@ body {
 }
 .slider_text a:hover .slider_header,
 .slider_text a:hover .slider_second_header {
-    text-shadow: 0.5px 0.866px 0px rgb( 15, 21, 24 );
+    text-shadow: 1px 1px 0px rgb( 15, 21, 24 );
 } 
 .slider_header {
     color: #fff;
     display: block;
     font: 400 60px/60px 'LeagueGothic', sans-serif;
     text-transform: uppercase;
-    text-shadow: 1px 1.732px 2px rgb( 0, 0, 0 );
+    text-shadow: 1px 2px 2px rgb( 0, 0, 0 );
 }
 .slider_second_header {
     color: #edbfff;
     display: block;
     font: 400 32px/32px 'LeagueGothic', sans-serif;
     text-transform: uppercase;
-    text-shadow: 1px 1.732px 2px rgb( 0, 0, 0 );
+    text-shadow: 1px 2px 2px rgb( 0, 0, 0 );
 }
 .slider_text_p {
     font: 300 18px/30px 'Open Sans', sans-serif;
-    text-shadow: 1px 1.732px 2px rgba( 0, 0, 0, .5 );
+    text-shadow: 1px 2px 2px rgba( 0, 0, 0, .5 );
 }
 .slider_img {
    position: absolute;
@@ -174,13 +174,16 @@ body {
     background: -webkit-linear-gradient(#745083 0%, #322539 100%);
     background: -o-linear-gradient(#745083 0%, #322539 100%);
     background: linear-gradient(#745083 0%, #322539 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539',GradientType=0 ); /* IE6-9 */
 }
 .news {
     display: inline-block;
     padding-left: 11%;
     min-width: 200px;
     width: 24%;
+}
+.news a {
+    
+    text-decoration: none;
 }
 .news_one {
     margin-left: 5%;
@@ -214,26 +217,31 @@ h3 {
     height: 28px;
 }
 .news_header a{
+    color: #fff;
     text-transform: uppercase;
-    text-shadow: 1px 1.732px 2px rgb( 0, 0, 0 );
+    text-shadow: 1px 2px 2px rgb( 0, 0, 0 );
+    text-decoration: none;
 }
 .news_text {
+    color: #fff;
     font: 300 16px/25px 'Open Sans', sans-serif;
     margin-top: 0;
     margin-bottom: 28px;
-    text-shadow: 1px 1.732px 2px rgb( 0, 0, 0 );
+    text-shadow: 1px 2px 2px rgb( 0, 0, 0 );
 }
 .read_more {
+    color: #fff;
     float: right;
     font: 400 18px/18px 'LeagueGothic', sans-serif;
     padding-right: 10px;
-    text-shadow: 1px 1.732px 2px rgb( 0, 0, 0 );
+    text-shadow: 1px 2px 2px rgb( 0, 0, 0 );
     text-transform: uppercase;
+    text-decoration: none;
 }
 .news_header a:hover,
 .read_more:hover {
     color: #fff;
-    text-shadow: 0.5px 0.866px 0px rgb( 15, 21, 24 );
+    text-shadow: 1px 1px 0px rgb( 15, 21, 24 );
 }
 .link {
     text-decoration: none;
@@ -257,6 +265,9 @@ h3 {
 .coment h3 {
     font: 400 30px/30px 'LeagueGothic', sans-serif;
     text-transform: uppercase;
+}
+.coment h3 a {
+    text-decoration: none;
 }
 .coment h3 a:hover .text_grey{
     color: #000;
@@ -323,6 +334,8 @@ h3 {
 }
 .resent h3 a {
     text-transform: uppercase;
+    text-decoration: none;
+     color: #454545;
 }
 .posted {
     list-style: none;
@@ -337,23 +350,33 @@ h3 {
     display: inline-block;
     padding-right: 16px;
 }
+.post_img a {
+    text-decoration: none;
+}
 .post_text {
     display: inline-block;
     vertical-align: top;
 }
 .post_text a {
+    color: #454545;
     display: block;   
     font: 700 16px/16px 'Open Sans', sans-serif;
     padding-bottom: 12px;
+    text-decoration: none;
 }
 .post_text p {
+    color: #454545;
     font: 300 16px/16px 'Open Sans', sans-serif;
     margin: 0;
 }
 .read-more-here {
     float: right;
     font: 400 18px/18px 'LeagueGothic', sans-serif;
+    text-decoration: none;
     text-transform: uppercase;
+}
+.read-more-here span {
+     color: #454545;
 }
 .resent h3 a:hover,
 .read-more-here span:hover,
@@ -379,6 +402,9 @@ h3 {
 .brends_list li:last-child {
     padding-right: 0;
 }
+.brends_list li a {
+    text-decoration: none;
+}
 .bottom_block {
     background: #ececec;
     padding: 99px 5%;
@@ -388,10 +414,31 @@ h3 {
     min-width: 200px;
     width: 30%;
 }
+.bottom_news_box h3 a {
+     color: #454545;
+     text-decoration: none;
+}
 .bottom_news_box h3 a:hover {
     color: #000;
 }
+.news_box_zero {
+    float: left;
+}
+.news_box_zero h3 a {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.news_box_zero h3 a span {
+    color: #b9b9b9;
+}
+.author {
+    color: #c5c5c5;
+    display: block;
+    font: 300 16px/16px italic 'Georgia', sans-serif;
+    padding: 26px 0 20px;
+}
 .news_box_one {
+    display: none;
     float: left;
 }
 .news_box_two,
@@ -399,6 +446,7 @@ h3 {
     margin-left: 3.5%;
 }
 .bottom_news_box p {
+    color: #454545;
     font: 300 16px/25px 'Open Sans', sans-serif;
     margin: 0;
 }
@@ -412,21 +460,23 @@ h3 {
     padding: 0;
 }
 .footer .menu a {
+    color: #fff;
     font: 400 20px/20px 'LeagueGothic', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
 }
-.copirate {
+.copyrate {
     float: right;
 }
-.copirate span {
+.copyrate span {
     font: 300 12px/12px 'Open Sans', sans-serif;
 }
-.copirate a {
+.copyrate a {
     color: #fff;
-    font-weight: 800; 
+    font-weight: 800;
+    text-decoration: none; 
 }
-.copirate a:hover {
+.copyrate a:hover {
    color: #edbfff;
 }
 
@@ -521,6 +571,12 @@ h3 {
     .bottom_news_box h3 {
         font-size: 24px;
         padding-bottom: 20px;
+    }
+    .news_box_zero {
+        display: none;
+    }
+    .news_box_one {
+        display: block;
     }
     .footer .nav_list li{
        margin-left: 4%;
@@ -696,13 +752,16 @@ h3 {
         padding-bottom: 60px;
     }
     .footer .menu,
-    .copirate {
+    .copyrate {
         float: none;
+        text-align: center;
     }
     .footer .nav_list li {
         margin-left: 1%;
     }
-    .copirate {
+    
+    .copyrate {
+        padding-top: 25px;       
         text-align: center;
     }
 }
